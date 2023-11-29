@@ -1,11 +1,3 @@
-#[macro_export]
-macro_rules! builtin_symbols {
-    ($file:expr) => {
-        
-    };
-}
-
-
 #[derive(PartialEq, Eq, Hash)]
 pub struct Symbol {
     value: u32,
