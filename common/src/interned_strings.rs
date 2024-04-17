@@ -1,3 +1,7 @@
+pub enum BuiltinSymbol {
+    LastSymbol,
+}
+
 #[derive(PartialEq, Eq, Hash)]
 pub struct Symbol {
     value: u32,
